@@ -1,0 +1,26 @@
+.item1{
+    background-color: aqua;
+
+}
+.item2{
+    background-color:bisque;
+
+}
+.item3{
+    background-color: aqua;
+
+}
+.container{
+    display: grid;
+    background-color: darkgray;
+    padding: 1rem;
+}
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }

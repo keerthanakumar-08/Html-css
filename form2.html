@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms attribute</title>
+    
+</head>
+<body>
+    <h1>Register details</h1>
+    <form action="./media_tags.html">
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name" minlength="3" maxlength="9"><br><br>
+ 
+        <label for="mail-id">Enter Email:</label>
+        <input type="email" name="mail-id" id="mail-id"><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">:Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">:Female</label>
+
+        <input type="radio" id="other" name="gender" value="others">
+        <label for="other">:Others</label><br><br>
+
+        <label for="class-section">Select your class:</label>
+        <select name="sections" id="class-section">
+
+            <option value="a">Section-A</option>
+            <option value="b">Section-B</option>
+            <option value="c">Section-C</option>
+
+        </select><br><br>
+
+        
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
