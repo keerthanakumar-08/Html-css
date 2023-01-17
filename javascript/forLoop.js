@@ -11,7 +11,7 @@ const studentNames = ['ram','sri','seetha']
 
 for(let i=0; i< studentNames.length; i++){
     console.log(studentNames[i])
-}
+}   
 console.log('ending Loops')
 
 
